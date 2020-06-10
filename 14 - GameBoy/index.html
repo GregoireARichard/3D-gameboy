@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Flex</title>
+    <link rel="icon" href="images/icon.svg.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+<!--My inspiration for the subject comes from this website : https://www.yjyoon.com/flex
+    All the credits are for the original creators of this "Nintendo Flex", all of this website is just 3D css model I made myself
+    Discovered on Bēhance on this post : https://www.behance.net/gallery/76399265/Nintendo-flex?tracking_source=search_projects_recommended%7Cgameboy
+ -->
+
+ <div class="loader">
+     <div class="loadingContent">
+         <p class="loadingText">G</p>
+         <p class="loadingText">A</p>
+         <p class="loadingText">M</p>
+         <p class="loadingText">E</p>
+         <p class="loadingText">B</p>
+         <p class="loadingText">O</p>
+         <p class="loadingText">Y</p>
+         <p class="loadingText">&nbsp</p>
+         <p class="loadingText">F</p>
+         <p class="loadingText">l</p>
+         <p class="loadingText">e</p>
+         <p class="loadingText">x</p>
+     </div>
+ </div>
+</div>
+ <div class="pageContent">
+    <div class="scene">
+        <div class="cube "> <!--Game Boy starts-->
+            <div class="pivot">
+                    <div class="face x-pos ">
+                    </div>
+                    <div class="face x-neg"></div>
+                    <div class="face z-pos"></div>
+                    <div class="face z-neg"> 
+                        <div class="smallLight"></div>
+                        <div class="screen">
+                            <div class="writtenContent">
+                                <h3 class="titleAnim typeWritter"id="gameBoyBoot">Game Boy booting... Press "i" to start </h3>
+                                <p class="paragraphI typeWritter" id="hi">Hi Sudo, Glad to see you back buddy </p>
+                                <p class="paragraphI-2 whiteText" id="toMainMenu">Press S to go to the main menu</p>
+                                <p class="paragraphI-3 whiteText" id="switchMusic">Or press F/G to switch on/off the music</p>
+                                <p class="menuParagraph whiteText" id="wToTheMenu">Welcome to the menu</p>
+                                <p class="language whiteText" id="languagesAvailable">Two languages available: </p>
+                                <a class="languageText whiteText en" href="#en" data-reload >English</a>
+                                <a class="languageText whiteText no" href="#no" data-reload>Norsk</a>
+                                <p class="toShutDown whiteText">Press X to shut down the game boy!</p>
+                                <p class="shutDown">G</p>
+
+                            </div>
+                            <img src="images/Flex.png" alt="Nintendo Flex" title="Nintendo Flex" class="flex">
+                        </div>
+                        <div class="circleButton">
+                            <p class="touchBtnTop">|</p>
+                            <p class="touchBtnBottom">|</p>
+                            <p class="touchBtnLeft">_</p>
+                            <p class="touchBtnRight">_</p>
+                        </div>
+                        <div class="oblique">
+                            <div class="obliqueBtn">+</div>
+                            <div class="start"><p class="pStart">Start</p></div>
+                            <div class="select"><p class="pSelect">Select</p></div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+  </div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
