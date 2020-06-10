@@ -279,11 +279,9 @@ p[class^="language"]{
     from{border-right-color:#ffffff;}
     to{border-right-color:transparent;}
 }
-.flex{
+img.flex{
     position: absolute;
-    top:56%;
-    left:5%;
-    font-family: 'Roboto', sans-serif;
+    top:58%;
 }
 .circleButton{
     position: absolute;
